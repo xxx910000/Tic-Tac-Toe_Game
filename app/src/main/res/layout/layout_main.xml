@@ -21,7 +21,8 @@
         android:text="Start！"
         android:textStyle="italic|bold"
         android:textSize="24sp"
-        android:padding="15dp" />
+        android:padding="15dp"
+        android:onClick="startgame"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"

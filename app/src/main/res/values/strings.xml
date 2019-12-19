@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Tic-Tac-Toe Game</string>
     <string name="instru">兩個玩家，一個打圈(◯)，一個打叉（✗），輪流在3乘3的格上打自己的符號，最先以橫、直、斜連成一線則為勝。\n如果雙方都下得正確無誤，將得和局。</string>
+    <string name="c">(◯)</string>
+    <string name="f">（✗）</string>
+    <string name="bt">◯</string>
+    <string name="bf">✗</string>
 </resources>

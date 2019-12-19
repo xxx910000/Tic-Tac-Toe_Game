@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".game">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Currently"
+            android:layout_weight="1"
+            android:textSize="32sp"
+            android:textAlignment="textEnd"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/c"
+            android:layout_weight="1"
+            android:textSize="32sp"
+            android:textAlignment="center"
+            android:id="@+id/Vcf"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/g_bg2"
+        android:layout_weight="3"
+        android:layout_marginBottom="30dp">
+
+        <Button
+            android:layout_width="92dp"
+            android:layout_height="92dp"
+            android:layout_gravity="top|left"
+            android:onClick="click"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/b1"
+            android:background="@android:color/transparent"/>
+        <Button
+            android:layout_width="88dp"
+            android:layout_height="92dp"
+            android:layout_gravity="top|center"
+            android:onClick="click"
+            android:layout_marginTop="20dp"
+            android:id="@+id/b2"
+            android:background="@android:color/transparent"/>
+        <Button
+            android:layout_width="92dp"
+            android:layout_height="92dp"
+            android:layout_gravity="top|right"
+            android:onClick="click"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/b3"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:layout_width="92dp"
+            android:layout_height="99dp"
+            android:layout_gravity="center|left"
+            android:onClick="click"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8dp"
+            android:id="@+id/b4"
+            android:background="@android:color/transparent"/>
+        <Button
+            android:layout_width="92dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_horizontal|center"
+            android:onClick="click"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:id="@+id/b5"
+            android:background="@android:color/transparent"/>
+        <Button
+            android:layout_width="92dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center|right"
+            android:onClick="click"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:id="@+id/b6"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:layout_width="92dp"
+            android:layout_height="92dp"
+            android:layout_gravity="bottom|left"
+            android:onClick="click"
+            android:layout_marginLeft="19dp"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/b7"
+            android:background="@android:color/transparent"/>
+        <Button
+            android:layout_width="88dp"
+            android:layout_height="92dp"
+            android:layout_gravity="bottom|center"
+            android:onClick="click"
+            android:layout_marginBottom="12dp"
+            android:layout_marginRight="2dp"
+            android:id="@+id/b8"
+            android:background="@android:color/transparent"/>
+        <Button
+            android:layout_width="92dp"
+            android:layout_height="92dp"
+            android:layout_gravity="bottom|right"
+            android:onClick="click"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/b9"
+            android:background="@android:color/transparent"/>
+
+    </FrameLayout>
+
+</LinearLayout>

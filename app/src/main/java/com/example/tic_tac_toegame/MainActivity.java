@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,13 +26,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //背景音乐函数，关闭。
-    protected void onStop(){
+   /* protected void onStop(){
         Intent intent = new Intent(this,MusicServer.class);
         stopService(intent);
-        super.onStop(); }
+        super.onStop(); }*/
 
 
-
+    public void startgame(View view) {
+        Intent intent = new Intent();
+        intent.setClass(this,game.class);
+        startActivity(intent);
+    }
 }
 
 

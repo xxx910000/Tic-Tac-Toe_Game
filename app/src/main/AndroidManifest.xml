@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".game"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,18 +17,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <service
             android:name=".MusicServer"
-            android:exported="false" >
-                    <intent-filter>
-                        <action android:name="com.angel.Android.MUSIC" />
-         
-                        <category android:name="android.intent.category.default" />
-                    </intent-filter>
+            android:exported="false">           
+            <intent-filter>             
+                <action android:name="com.angel.Android.MUSIC" />
+                <category android:name="android.intent.category.default" />           
+            </intent-filter>
         </service>
-
     </application>
-
 
 </manifest>
